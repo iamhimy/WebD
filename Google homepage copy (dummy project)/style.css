@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header {
+    height: auto;
+    text-align: right;
+}
+.header-item {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 40px;
+}
+.links {
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    right: 180px;
+    padding: 5px;
+}
+span {
+    margin: 5px;
+}
+span:hover {
+    text-decoration: underline;
+}
+.header-item>img {
+    margin-top: px;
+    width: 50px;
+}
+#dp {
+    border:1px solid black;
+    border-radius: 25px;
+}
+
+#app-box {
+    position: absolute;
+    right: 150px;
+    border: 1px solid black;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    display: none;
+}
+#drop-down:hover #app-box {
+    display: block;
+}
+li {
+    display: inline-block;
+}
+/* header end */
+section {
+    height: 70%;
+    text-align: center;
+}
+#google-big {
+    width: 50%;
+    height: 30%;
+}
+#search-box {
+    font-size: x-large;
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    outline: 0;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+#voice{
+    position: absolute;
+    bottom: 150px;
+    right: 330px;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    margin-top: 5px;
+}
+button {
+    display: inline-block;
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+button:hover{
+    border: 2px solid black;
+}
+/*section ends*/
+footer {
+    background-color: burlywood;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border-top: 1px solid black;
+    text-align: center;
+    height: 70px;
+    padding : 20px;
+}
