@@ -32,9 +32,16 @@ nav {
 .links {
     display: inline-block;
     margin-left: 15px;
+    color: gray;
 }
 .links a {
     text-decoration: none;
+}
+.links a:link {
+    color: gray;
+}
+.links a:hover{
+    color: crimson;
 }
 #dropdown {
     position: absolute;
@@ -50,17 +57,20 @@ nav {
     border-bottom: 1px solid black;
 }
 #right-nav button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding : 5px;
+    border: 2px solid greenyellow;
     border-radius: 15px;
     outline: 0px;
-    background-color: greenyellow;
+    cursor: pointer;
     box-shadow: 1px 1px 4px rgb(73, 57, 57);
     
 }
 #right-nav button:hover {
     background-color: gray;
-    color: rgb(76, 252, 128);
+    color: greenyellow;
     transform: scale(1.2);
+   /* opacity: 0.8; practice*/
 }
 
 /*................... navbar ends*........................*/
@@ -77,6 +87,76 @@ nav {
 }
 #cover h1 {
     font-size: 40px;
+    letter-spacing: 3px; 
+}
+
+/*...................cover ends..................*/
+#steps{
+    height: 520px;
+}
+#steps>div{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 4px;
+    padding-top: 200px;
+    /* border-style: dotted;/*practice*/
+}
+#steps div p {
+    text-transform: capitalize;
+    text-overflow: inherit;
+}
+#steps div img:hover {
+    transform: scale(1.5);
+}
+#div1{
+    background-color: rgb(108, 205, 250);
+}
+#div2{
+    background-color: rgb(108, 182, 34);
+}
+#div3{
+    background-color: burlywood;
+}
+#div4{
+    background-color: pink;
 }
 
 
+
+
+
+
+
+
+
+/*...........................steps end here....................*/
+#vegan {
+    background-color: rgb(199, 169, 165);
+    padding: 2px;
+    height: 100%;
+}
+#upper {
+    background-color: rgb(199, 169, 165);
+}
+#lower {
+    background-color: rgb(199, 169, 165);
+    
+}
+.features {
+    width:25%;
+    border: 1px solid black;
+    background-color: rgb(199, 169, 165);
+    float: left;
+}
+.fa-camera{
+    width: 25px;
+    height: 25px;
+    color:whitesmoke;
+}
+/*.................vegan end here........................*/
+#testimony {
+    clear: both;
+    background-color: springgreen;
+    margin-top: 10px;
+}
