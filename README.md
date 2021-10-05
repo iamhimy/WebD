@@ -1,2 +1,2 @@
 # WebD
-Web Development with multiple technologies like Bootstrap, Js , Flask, React etc.
+Web Development with multiple technologies like Bootstrap, Js , React etc.
